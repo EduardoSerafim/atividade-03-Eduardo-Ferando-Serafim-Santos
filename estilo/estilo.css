@@ -1,24 +1,22 @@
 #conteiner{
-    background: #f6f6f6;
     width: 1100px;
+    margin: auto; 
+}
+#conteinerConteudoPrincipal{
     height: 400px;
     margin: 30px auto 30px ;
-    padding: auto;
 }
 #conteinerImagemGrande{
     width: 630px;
     float: left;
-   
 }
 
 #conteinerImagemGrande img{
     width: 630px;
 }
 
-
 #conteinerTexto{
     width: 470px;
-     /* background: red;   */
     display: inline-block;
     font-size: 18px;
     line-height: 30px;
@@ -26,7 +24,6 @@
     box-sizing: border-box;
     text-align: justify;
 }
-
 
 #conteinerTexto #link {
     padding: 10px;
@@ -43,5 +40,16 @@
 #conteinerTexto #link a  {
     color: #ffffff;
     text-decoration: none;
+    font-weight: 900;
+}
+#conteinerImagens{
+    height: 350px;
+    margin: 10px 0px;
+}
+
+.imagensPequenas{
+    margin: 10px;
+    width: 230px;
+    height: 150px;
 }
 
